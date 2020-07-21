@@ -1,0 +1,479 @@
+HTML:-
+        hyper text markup language.
+WEB PAGE:-
+	It is the set of inforamtion ot content that is fromed using htmltags.
+WEB SITE:-
+	It is collection of the web pages.
+URL:-
+     uniform resource allocator.
+     ex: http://findmyjob.com
+PROTOCOLS:- 
+=>It means set of rules.
+ 1)http:-
+hyper text transfer protocol
+it is used to transfrom the site from server to user system.
+ 2)ftp:-
+file transfer protocol
+It is used to transfer the files from our system to server and vice-versa.
+FTP path
+FTP username.
+FTP pasword.
+3)SMTP (Simple mail transfer Protocol):-
+Mailing purpose,receiving mails,sending mails.
+www ==> worldwie web
+Domain Name(WebsiteName)
+Extension of the website:-
+	top level domains
+.com		commercial
+.edu		education
+.in		india
+.org		organization
+.gov		government
+.mil		miltary
+.net		network enable technology
+.info		information
+
+
+HOSTING:
+	space or memory provided for the website.
+TYPES:
+1)windows hosting.	os-windows.
+2)linux hosting.	os-linux.
+3)shared hosting.	morethan one siteto be hosted.
+4)reseller hosting.	bluck memory to divide into blocks and resell.
+5)VPS hosting.	virtual private server (e-commerce sites).
+6)dedicated server hosting. (separate like google,facebook,etc).
+	
+
+TYPES OF HTML TAGS:
+1)constant tags: compulsory <html></html>
+2)fixed tags: <h1></h1>,<font></font>,<p></p>
+3)independent tags: donot have opening.   
+<br>,<hr>,<img>
+
+HTML TAG Attributes(properties)
+<tagname propertyname ='value'>
+eg:-
+<body  bgcolor='red'>
+
+<br> ==> break the line.
+&nbsp ==> non breakable space.
+character entites or properties
+&copy ==> copyright symbol.
+
+		BODY TAG PROPERTIES
+<html>
+<head>
+<title>body tag properties</title>
+</head>
+<body  bgcolor="green" background="1.jpg"  text="white"></body>
+</html>
+
+bgcolor -->to change background colour of the webpage.
+background ---> to place image. (css required).
+text -->to change text color.
+
+		TEXT PROPERTIES
+
+heading		--->h1,h2,h3,h4,h5,h6.
+general text tags	---> <b><strong><i><em><u><s><sup><sub>
+		      <small><code><pre>
+font properties	---> size(max=7),color,face(to change foont style)
+		       (align not used),<center>,<u>
+paragraph		--->align(justify)
+text reverse	---><bdo></bdo> dir property.
+
+
+<html>
+<head>
+<title>text properties</title>
+</head>
+<body>
+<h1 align="center">WELCOME</h1>
+<b> rakesh software solutions<b>
+<strong>html</strong>
+<i>html</i>
+<center>
+<font size=7 color="red" face="timesnewroman" ><u>this is html</u></font>
+<hr size=5 color="blue" width=500>
+<p align="justify">this is the first para</p> 
+<bdo dir="rtl">text reverse</bdo>
+</center>
+</body>
+</html>
+
+align ---> left/right/center.
+bold and break are common.
+<pre></pre> --->which is used to have the format or design.
+bdo  ---> bidirectional object
+dir    ---> ltr/rtl.
+
+
+	IMAGE PROPERTIES(Image tag to display on website)
+<html>
+<head>
+<title>image properties</title>
+</head>
+<body>
+<img src="!234.jpg" width="450" height="500" border=5 alt="sample image"
+  hspace=200 vspace=300>
+</body>
+</html>
+
+		VIDEO TAG
+<embed src=" " width=300 height=250 >
+	
+		AUDIO TAG
+<embed src="" >
+<bgsound src="" loop=4>
+	
+		FLASH FILES
+.swf format(animation)
+<embed src="" >
+		MARQUEE(SCROLLING)
+  default speed=8
+<html>
+<head>
+<title>text properties</title>
+</head>
+<body>
+
+<marquee bgcolor="lightgreen"  direction="up/down/right/left" 
+behavior="scroll/slide/alternate" scrollamount="5" loop=4>
+<font size=6 color="red">WELCOME TO THE PAGE</font>
+</marquee>
+
+</body>
+</html>
+
+		LINKING TAG
+to give link between webpage
+to give link to files(images,pdf,doc)
+to give linking from one point to another point(same)
+		EXAMPLE
+
+homepage:
+<html>
+<head>
+<title>Home page</title>
+</head>
+<body>
+<marquee bgcolor="lightgreen"  direction="right" 
+behavior="scroll" scrollamount="7" >
+<font size=6 color="red">WELCOME TO THE PAGE</font>
+</marquee>
+<h2>
+<a href="homepage.html">
+HOME
+</a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="aboutpage.html">
+ABOUT
+</a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="contactpage.html">
+CONTACT
+</a>
+</h2>
+<hr size=5 color="brown">
+<font size=4 color="green">
+<p align="justify">
+Notepad is an application that allows you to create and edit XML documents quickly and easily.
+With this tool, the structure of your XML data is displayed graphically in a tree structure.
+The interface presents two panes: one for the structure, and one for the values. 
+You may add elements, attributes, comments, and text to the XML document by creating 
+the tree structure in the left pane and entering values in the right pane’s
+corresponding text boxes.How to Open Notepad in Windows 10
+To open Notepad, search “notepad” then you can find it.
+</p>
+</font>
+<center>
+<img src="images/123.jpeg" width=400 height=400>
+</center>
+</body>
+</html>
+
+aboutpage:
+
+<html>
+<head>
+<title>About page</title>
+</head>
+<body>
+<marquee bgcolor="lightgreen"  direction="right" 
+behavior="scroll" scrollamount="7" >
+<font size=6 color="red">WELCOME TO THE PAGE</font>
+</marquee>
+<h2>
+<a href="homepage.html">
+HOME
+</a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="aboutpage.html">
+ABOUT
+</a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="contactpage.html">
+CONTACT
+</a>
+</h2>
+<hr size=5 color="brown">
+<center>
+<img src="C:\Users\Rakesh Meka\Desktop\html5\images\123.jpeg" width=250 height=200>
+<img src="C:\Users\Rakesh Meka\Desktop\html5\images\2.jpg" width=250 height=200>
+<img src="C:\Users\Rakesh Meka\Desktop\html5\images\1.jpg" width=250 height=200>
+</center>
+<font size=4 color="green">
+<p align="justify">
+Notepad is an application that allows you to create and edit XML documents quickly and easily.
+With this tool, the structure of your XML data is displayed graphically in a tree structure.
+The interface presents two panes: one for the structure, and one for the values. 
+You may add elements, attributes, comments, and text to the XML document by creating 
+the tree structure in the left pane and entering values in the right pane’s
+corresponding text boxes.How to Open Notepad in Windows 10
+To open Notepad, search “notepad” then you can find it.
+</p>
+</font>
+</body>
+</html>
+
+contactpage:
+
+<html>
+<head>
+<title>Home page</title>
+</head>
+<body>
+<marquee bgcolor="lightgreen"  direction="right" 
+behavior="scroll" scrollamount="7" >
+<font size=6 color="red">WELCOME TO THE PAGE</font>
+</marquee>
+<h2>
+<a href="homepage.html">
+HOME
+</a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="aboutpage.html">
+ABOUT
+</a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="contactpage.html">
+CONTACT
+</a>
+</h2>
+<hr size=5 color="brown">
+<font size=7 color="red">Address:<br></font>
+<font size=5 color="green">
+H.no:prince c block-011<br>
+near veltech junction<br>
+Avadi<br>
+Chennai<br>Tamil Nadu-600062<br>
+Ph.no:7896541230<br>
+Email:vtu7864@veltechuniv.edu.in<br>
+</font>
+</body>
+</html>
+
+		LINKING TO FILES
+<html>
+<head>
+<title>linking to files</title>
+</head>
+<body>
+<a href="images/123.jpeg target="_new" title="sample">
+<font  color="red">click here</font>
+</body>
+</html>
+
+		POINT TO POINT LINKING
+<a name="a1" href="#a2">
+<h2>bottom</h2>
+</a>
+<a name="a2" href="#a1">
+<h2>top</h2>
+</a>
+		LIST PROPERTIES
+
+<ol type="I/A/a/2" start=10>
+<li>HTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>C</li>
+<li>C++</li>
+<li>JAVA</li>
+</ol>
+<ul type="disc/circle/square"  >
+<li>HTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>C</li>
+<li>C++</li>
+<li>JAVA</li>
+<dl>
+<dt>HTML</dt>
+<dd>description</dd>
+<dt>CSS</li>
+<dd>cascading style sheets</dd>
+</dl>
+
+			TABLES
+
+to store data
+<html>
+<head>
+<title>my time table</title>
+</head>
+<body bgcolor="#FF0000">
+<div style="background-color:yellow; color:black; padding:40px;">
+<h1 align="center"><ins>6th SEMESTER TIME TABLE:</ins></h1>
+<table border="5" align="center">
+<tr>
+<th bgcolor="sky blue">day\time</th>
+<th bgcolor="sky blue">7:45-8:45</th>
+<th bgcolor="sky blue">8:45-9:45</th>
+<th bgcolor="sky blue">9:45-10:45</th>
+<th bgcolor="sky blue">10:45-11:45</th>
+<th bgcolor="sky blue">11:45-12:45</th>
+<th bgcolor="sky blue">12:45-1:45</th>
+<th bgcolor="sky blue">1:45-2:45</th>
+<th bgcolor="sky blue">2:45-3:45</th>
+<th bgcolor="sky blue">3:45-4:45</th>
+<th bgcolor="sky blue">4:45-5:45</th>
+<th bgcolor="sky blue">5:45-6:45</th>
+</tr>
+<tr>
+<td bgcolor="sky blue"><i><b>mon</b></i></td>
+<td bgcolor="queen">concrete maths</td>
+<td colspan="2" bgcolor="grey">MAD</td>
+<td colspan="2" bgcolor="blue">Applied cryptography lab</td>
+<td> L </td>
+<td>****</td>
+<td bgcolor="red">PMF</td>
+<td bgcolor="violet">UE</td>
+<td bgcolor="orange">MPMC</td>
+<td>DS</td>
+</tr>
+<tr>
+<td bgcolor="sky blue"><i><b>tue</b></i></td>
+<td bgcolor="queen">concrete maths</td>
+<td bgcolor="grey">MAD</td>
+<td>****</td>
+<td bgcolor="dark">AE</td>
+<td bgcolor="pink">OS</td>
+<td>U</td>
+<td bgcolor="red">PMF</td>
+<td colspan="2" bgcolor="blue">Applied Cryptography lab</td>
+<td bgcolor="violet">UE</td>
+<td>****</td>
+</tr>
+<tr>
+<td bgcolor="sky blue"><i><b>wed</b></i></td>
+<td bgcolor="queen">conrete maths</td>
+<td bgcolor="red">PMF</td>
+<td bgcolor="grey">MAD</td>
+<td>****</td>
+<td bgcolor="orange">MPMC</td>
+<td>N</td>
+<td bgcolor="dark">AE</td>
+<td>****</td>
+<td bgcolor="violet">UE</td>
+<td bgcolor="orange">MPMC</td>
+<td>DS</td>
+</tr>
+<tr>
+<td bgcolor="sky blue"><i><b>thur</b></i></td>
+<td bgcolor="queen">concrete maths</td>
+<td bgcolor="pink">OS</td>
+<td bgcolor="orange">MPMC</td>
+<td bgcolor="red">PMF</td>
+<td bgcolor="pink">OS</td>
+<td>C</td>
+<td colspan="2">PPT</td>
+<td bgcolor="grey">MAD</td>
+<td>AE</td>
+<td>****</td>
+</tr>
+<tr>
+<td bgcolor="sky blue"><i><b>fri</b></i></td>
+<td>****</td>
+<td colspan="2">PPT</td>
+<td colspan="2">**************</td>
+<td>H</td>
+<td colspan="2" bgcolor="green">OS LAB</td>
+<td bgcolor="violet">UE</td>
+<td bgcolor="dark">AE</td>
+<td >DS</td>
+</tr>
+</table>
+<p align="center"><big><b><i>yellow boxes represents <span style="color:red">leisure periods</span></i></b></big></p>
+</div>
+<form action="third.html" method="GET">
+<p>NAME</p><input type="text" name="name"/><br/>
+<p>EMAIL</p><input type="email" name="email"/><br/>
+<p>MESSAGE</p><textarea name="message"></textarea><br/>
+<input type="submit" value="SUBMIT"/>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+  
+       
+

@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>canvas</title>
+</head>
+<body>
+<center>
+<canvas id="mycanvas"  width="300" height="300" style="border:5px  solid grey;">
+This tag is not supported in your browser
+</canvas>
+</center>
+<script type="text/javascript">
+var c=document.getElementById("mycanvas");
+var cxt=c.getContext("2d");
+cxt.fillStyle="red";
+cxt.beginPath();
+cxt.arc(150,150,100,0,Math.PI*2,true);
+cxt.closePath();
+cxt.fill();
+</script>
+
+<center>
+<canvas id="mycanvas1"  width="300" height="300" style="border:5px  solid grey;">
+This tag is not supported in your browser
+</canvas>
+</center>
+
+<script type="text/javascript">
+var a=document.getElementById("mycanvas1");
+var b=a.getContext("2d");
+var grd=b.createLinearGradient(0,0,150,0);
+grd.addColorStop(0.5,"black");
+grd.addColorStop(0.8,"red");
+grd.addColorStop(0,"blue");
+b.fillStyle=grd;
+b.fillRect(100,100,100,100);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+some basic html5 new tags:
+	<address></address>
+	<br/>
+	<base></base>
+	<aside></aside>
+	<article></article>
+<details>
+<summary>copyright &copy 2016 </summary>
+this is sample
+</details>
+
+<figure>
+<img src="123.jpeg">
+<figurecaption>beautiful image</figurecaption>
+</figure>
+
+<hgroup>    	---------->	 headings group
+<h1>welcome</h1>
+<h2>how are you <h2>
+<h3>helloo<h3>
+</hrgroup>
+
+<mark>                      ----------> highlight the text(yellow colour)
+</mark>
+
+<meter   value="" low=""high="" optimum="">		
+</meter>		---------> result in the form of the meter guage.
+
+ 
+<progress value="" max=""> 	--------->it is used to get progress bar.
+</progress>
+
+<p>we are going at <time>10:00</time>am on 
+<time date="2019-12-18">my birthday<time>on monday.
+</p>
+	It is used to tell the browser that this isa time and it is also
+	used tell the date.
+
+	WORD BREAK TAG: <wbr>
+	breaks the long words into two words
+<body>
+Hi, welcome to learn AJAX,ajax workson XML<wbr>htttp</wbr>Request
+</body>
+	
+	NEW MEDIA TAGS:
+1.video tag
+2.audio tag
+
+<video with="300"height="400"  controls="controls">
+<source src="111.mp4" type="mp4/video>
+</video>
+
+properties:
+
+1} width
+2} height
+3}loop
+4}autoplay
+5}poster
+6}src 
+7}muted 
+IE 	----->.mp4 format
+chrome     ----->all format
+firefox	----->.ogg format
+
+
+		CANVAS 
+
+*canvas is used  to for drawing purpose.
+*in the form of pixels.
+* rectangle area in which pixles will be controlled.	
+*If u want to drw anything inside the canvas we should ue javascript.
+<canvas style="border:3px solid red;">
+</canvas>
+
+EXAMPLE:
+
+<canvas id="mycanvas" width="450" height="200" style="border:3px solid red;">
+</canvas>
+<script type="text/javascript">
+var c=document.getElementById("mtcanvas");
+var cxt=c.getContext("2d");
+cxt.fillStyle="red";
+cxt.fillRect(50,80200,150);
+</script>
+
+
+<canvas id="mycanvas" width="450" height="200" style="border:3px solid red;">
+</canvas>
+<script type="text/javascript">
+var c=document.getElementById("mtcanvas");
+var cxt=c.getContext("2d");
+cxt.fillStyle="red";
+cxt.beginPath();
+cxt.arc(100,100,60,0,Math.PI*2,true);
+cxt.closePath();
+cxt.fill();
+</script>
+
+
+STRUCTURE OF HTML5 WEBPAGE:
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>....</title>
+	</head>
+<body>
+	<header>
+		It contains someinfo regarding section of the webpage.
+	</header>
+	<nav>
+		linking code
+	</nav>
+	<section>
+		<article>
+			.............
+		</article>
+	</section>
+	<footer>
+		contact info,social sharing icons.
+	</footer>
+</body>
+</html>
+
+
